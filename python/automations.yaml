@@ -1,0 +1,7 @@
+tasks:
+  dependencies:
+    name: Install dependencies
+    command: |
+      pip install --upgrade pip
+    triggeredBy:
+      - manual
